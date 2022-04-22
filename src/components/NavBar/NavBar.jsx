@@ -1,5 +1,8 @@
 import React from 'react'
-import logo from '../logo.png'
+import logo from '../../../src/logo.png'
+import { FaShoppingCart } from 'react-icons/fa';
+
+
 
 
 const NavBar = () => {
@@ -45,8 +48,13 @@ const NavBar = () => {
                     </ul>
                     </li>
                 </ul>
+                <div className='p-2 d-flex align-items-center justify-items-center' style={{width:"auto", fontSize:"40px",backgroundColor:"rgb(211,211,211)"}}>
+                    <FaShoppingCart />
+                    <p className='p-2' style={{marginBottom:'0',fontSize:"25px"}}>4</p>
+                </div>
             </div>
         </div>
+
     </nav>
 
 
